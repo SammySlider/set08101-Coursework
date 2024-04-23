@@ -1,9 +1,10 @@
+/* Background colouring */
 body {background-color: black;}
 h1 {background-color: black;}
 p {background-color: black;}
 
 
-
+/* Dropdown menu formatting */
 .dropdown {
     position: absolute;
     top: 20px; 
@@ -51,3 +52,82 @@ p {background-color: black;}
     background-color: red;
   }
   
+  heading-container {
+    display: flex;
+    
+}
+
+
+
+
+.image-text-container {
+    display: flex; 
+    height: 200px
+  }
+ /* Formatting for text in container */
+  .text {
+    flex: 1; 
+    padding: 20px; 
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+  }
+/* Formatting for image in container */ 
+  .image {
+    flex: 1; 
+    padding: 20px; 
+    
+
+  }
+  
+  
+  .text p {
+    margin: 0; 
+  }
+  
+
+  /* CSS styles for buttom container */
+  .button-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 90vh; 
+}
+
+/* CSS styles for buttons */
+.button {
+    padding: 10px 20px; 
+    margin: 5px;
+    background-color: black; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    cursor: pointer; 
+    height: 50px;
+    
+    
+}
+
+/* Button hover styles */
+.button:hover {
+    background-color: red; 
+}
+
+/* Formatting for JavaScript popup */
+.popup {
+    position: fixed;
+    top: 42%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 9999;
+    width: 200px;
+    height: 200px;
+
+}
