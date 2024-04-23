@@ -1,4 +1,3 @@
-/* Background colouring */
 body {background-color: black;}
 h1 {background-color: black;}
 p {background-color: black;}
@@ -76,11 +75,7 @@ p {background-color: black;}
   .image {
     flex: 1; 
     padding: 20px; 
-    
-
   }
-  
-  
   .text p {
     margin: 0; 
   }
