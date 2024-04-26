@@ -1,8 +1,6 @@
-
-function displayPopup() {
+function displayPopupImage() {
     var popupContainer = document.getElementById("popupContainer");
-    popupContainer.innerHTML = "<p>You here a noise from the darkness...</p>"; 
-    
+    popupContainer.innerHTML="<img src=\"werewolf.png\" alt='image'>"; 
     
     popupContainer.style.display = "block";
 

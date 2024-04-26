@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" href="css/structure.css" type="text/css" />
+    </head>
 
-</html>
+    <div class="dropdown">
+        <!-- Dropdown Menu -->
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Index Page</a>
+          <a href="homepage.html">Homepage</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+      
+
+      
+      
+
+    <title>
+        This is the homepage for my coursework website
+    </title>
 
 <body>
-    <p>This is the story for choice B</p>
-    <p>
-        <a href="homepage.html">Return Home</a>
-    </p>
+    <div class="heading-container">
+        <h1><img src="images/logo.png" alt=image />This is the homepage for my website</h1>
+    </div>
+    
+    <div id="imagePopup" class="hidden">
+        <img src="scripts/werewolf.png" alt="Popup Werewolf Image">
+    </div>
+    <script src="scripts/popup_image.js"></script>
+    
+    <!-- Text and Image Box -->
+    <div class="image-text-container">
+        <div class="text">
+          <p>You get up from your bedroll and grab your weapon, ready to face the dark... Suddenly there is a leap from the darkness! Do you fight or run?
+          </p>
+        </div>
+        <div class="image">
+          <img src="images/fire.gif" alt="Image of bonfire">
+        </div>
+      </div>
+
+    <div class="button-container">
+        <!-- Buttons linked to separate webpages -->
+        <a href="choice_c.html" class="button">Prepare to fight!</a>
+        <a href="choice_d.html" class="button">Run</a>
+        
+    </div>
 </body>
+</html>

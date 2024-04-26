@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html>
-    
-</html>
-<body>
-    <p>This webpage displays the story for choice a</p>
+    <head>
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" href="css/structure.css" type="text/css" />
+    </head>
 
-    <a href="homepage.html">Return Home</a>
+    <div class="dropdown">
+        <!-- Dropdown Menu -->
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Index Page</a>
+          <a href="homepage.html">Homepage</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+
+<body>
+    <div class="heading-container">
+        <h1><img src="images/logo.png" alt=image />This is the homepage for my website</h1>
+    </div>
+    
+    <!-- Text and Image Box -->
+    <div class="image-text-container">
+        <div class="text">
+          <p>While drifting off to sleep the noise builds... Suddenly there is a leap from the darkness! Before you can react, you are hit and the world fades to black... GAME OVER 
+          </p>
+        </div>
+        <div class="image">
+          <img src="images/fire.gif" alt="Image description">
+        </div>
+      </div>
+
+    <div class="button-container">
+        <!-- Buttons linked to separate webpages -->
+        <a href="homepage.html" class="button">Try again?</a>
+    </div>
 </body>
+</html>
